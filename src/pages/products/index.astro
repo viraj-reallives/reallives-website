@@ -1,0 +1,194 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import ProductsOverview from '../../components/ProductsOverview.astro';
+---
+
+<Layout title="Educational Products - RealLives Foundation" 
+       description="Explore our comprehensive suite of educational tools designed to build empathy, global awareness, and changemaker skills through immersive learning experiences.">
+	<Header />
+	<main>
+		<section class="hero-page">
+			<div class="container">
+				<div class="hero-content">
+					<h1 class="hero-title">Educational Products</h1>
+					<p class="hero-subtitle">
+						Comprehensive tools designed to build empathy, global awareness, and changemaker skills through immersive educational experiences that transform how students understand our interconnected world.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<ProductsOverview />
+
+		<section class="section">
+			<div class="container">
+				<h2 class="section-title">Why Choose RealLives?</h2>
+				<div class="why-choose-grid">
+					<div class="feature-card">
+						<div class="feature-icon">
+							<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M24 8C15.16 8 8 15.16 8 24s7.16 16 16 16 16-7.16 16-16S32.84 8 24 8zm0 6c2.21 0 4 1.79 4 4s-1.79 4-4 4-4-1.79-4-4 1.79-4 4-4zm0 22c-4 0-7.43-2.05-9.49-5.18C16.07 28.07 20 26 24 26s7.93 2.07 9.49 4.82C31.43 33.95 28 36 24 36z" fill="currentColor"/>
+							</svg>
+						</div>
+						<h3>Evidence-Based Learning</h3>
+						<p>Our products are built on rigorous research and real-world data, ensuring authentic educational experiences that drive meaningful learning outcomes.</p>
+					</div>
+					<div class="feature-card">
+						<div class="feature-icon">
+							<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2" fill="none"/>
+								<path d="M24 8v32M40 24H8" stroke="currentColor" stroke-width="2"/>
+							</svg>
+						</div>
+						<h3>Global Perspective</h3>
+						<p>Experience life from 195+ countries with accurate cultural, economic, and social contexts that build true global citizenship skills.</p>
+					</div>
+					<div class="feature-card">
+						<div class="feature-icon">
+							<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<polygon points="24,8 32,16 28,24 36,32 24,40 16,32 20,24 12,16" stroke="currentColor" stroke-width="2" fill="none"/>
+							</svg>
+						</div>
+						<h3>Measurable Impact</h3>
+						<p>Track student development across 18 core competencies with our revolutionary assessment tools that measure real growth.</p>
+					</div>
+					<div class="feature-card">
+						<div class="feature-icon">
+							<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<rect x="8" y="12" width="32" height="24" rx="2" stroke="currentColor" stroke-width="2" fill="none"/>
+								<path d="M16 20h16M16 24h12M16 28h8" stroke="currentColor" stroke-width="2"/>
+							</svg>
+						</div>
+						<h3>Educator Support</h3>
+						<p>Comprehensive resources, training, and ongoing support to help educators maximize the impact of our tools in their classrooms.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section bg-gradient">
+			<div class="container">
+				<div class="cta-content">
+					<h2 class="section-title text-white">Ready to Transform Education?</h2>
+					<p class="section-subtitle text-white">
+						Join thousands of educators worldwide who are building empathy and global citizenship skills with RealLives educational tools.
+					</p>
+					<div class="cta-actions">
+						<a href="/trial" class="btn btn-primary btn-lg">Start Free Trial</a>
+						<a href="/contact" class="btn btn-secondary btn-lg">Contact Sales</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<Footer />
+</Layout>
+
+<style>
+	.hero-page {
+		background: linear-gradient(135deg, var(--primary-blue), var(--primary-green));
+		color: white;
+		padding: 120px 0 var(--spacing-3xl);
+		text-align: center;
+	}
+
+	.hero-title {
+		font-size: 3rem;
+		font-weight: 700;
+		margin-bottom: var(--spacing-lg);
+	}
+
+	.hero-subtitle {
+		font-size: 1.25rem;
+		max-width: 800px;
+		margin: 0 auto;
+		line-height: 1.6;
+		color: rgba(255, 255, 255, 0.9);
+	}
+
+	.why-choose-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+		gap: var(--spacing-2xl);
+		margin-top: var(--spacing-3xl);
+	}
+
+	.feature-card {
+		background: white;
+		border-radius: var(--border-radius-lg);
+		padding: var(--spacing-2xl);
+		box-shadow: var(--shadow-md);
+		text-align: center;
+		transition: all 0.3s ease;
+	}
+
+	.feature-card:hover {
+		transform: translateY(-8px);
+		box-shadow: var(--shadow-xl);
+	}
+
+	.feature-icon {
+		width: 80px;
+		height: 80px;
+		background: linear-gradient(135deg, var(--primary-blue), var(--primary-green));
+		color: white;
+		border-radius: var(--border-radius-lg);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 0 auto var(--spacing-lg);
+	}
+
+	.feature-card h3 {
+		margin-bottom: var(--spacing-md);
+		color: var(--neutral-900);
+	}
+
+	.feature-card p {
+		color: var(--neutral-600);
+		line-height: 1.6;
+	}
+
+	.bg-gradient {
+		background: linear-gradient(135deg, var(--primary-blue), var(--primary-green));
+	}
+
+	.text-white {
+		color: white;
+	}
+
+	.cta-content {
+		text-align: center;
+		max-width: 600px;
+		margin: 0 auto;
+	}
+
+	.cta-actions {
+		display: flex;
+		gap: var(--spacing-lg);
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.btn-lg {
+		padding: var(--spacing-lg) var(--spacing-2xl);
+		font-size: 1.125rem;
+	}
+
+	@media (max-width: 768px) {
+		.hero-title {
+			font-size: 2rem;
+		}
+
+		.why-choose-grid {
+			grid-template-columns: 1fr;
+		}
+
+		.cta-actions {
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+</style>

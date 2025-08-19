@@ -1,0 +1,195 @@
+---
+---
+
+<header class="header">
+	<div class="container">
+		<nav class="nav">
+			<a href="/" class="logo">
+				<div class="logo-icon">
+					<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<circle cx="16" cy="16" r="16" fill="url(#gradient)" />
+						<path d="M8 16C8 20.4 11.6 24 16 24C20.4 24 24 20.4 24 16C24 11.6 20.4 8 16 8" stroke="white" stroke-width="2" fill="none" />
+						<circle cx="16" cy="16" r="3" fill="white" />
+						<defs>
+							<linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+								<stop offset="0%" style="stop-color:#2563eb" />
+								<stop offset="100%" style="stop-color:#059669" />
+							</linearGradient>
+						</defs>
+					</svg>
+				</div>
+				<span class="logo-text">RealLives</span>
+			</a>
+
+			<div class="nav-links">
+				<a href="/" class="nav-link">Home</a>
+				<div class="nav-dropdown">
+					<a href="/products" class="nav-link">Products</a>
+					<div class="dropdown-content">
+						<a href="/products/simulation">RealLives Simulation</a>
+						<a href="/products/empathy-canvas">Empathy Canvas</a>
+						<a href="/products/realboard">RealBoard</a>
+						<a href="/products/changemaker-index">ChangeMaker Index</a>
+					</div>
+				</div>
+				<a href="/about" class="nav-link">About</a>
+				<a href="/educators" class="nav-link">For Educators</a>
+				<a href="/resources" class="nav-link">Resources</a>
+				<a href="/contact" class="nav-link">Contact</a>
+			</div>
+
+			<div class="nav-actions">
+				<a href="/login" class="btn-login">Login</a>
+				<a href="/trial" class="btn btn-primary">Start Free Trial</a>
+			</div>
+
+			<button class="mobile-menu-toggle" aria-label="Toggle menu">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+		</nav>
+	</div>
+</header>
+
+<style>
+	.header {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		background: rgba(255, 255, 255, 0.95);
+		backdrop-filter: blur(10px);
+		border-bottom: 1px solid var(--neutral-200);
+		z-index: 1000;
+		transition: all 0.3s ease;
+	}
+
+	.nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: var(--spacing-md) 0;
+	}
+
+	.logo {
+		display: flex;
+		align-items: center;
+		gap: var(--spacing-md);
+		text-decoration: none;
+		font-size: 1.5rem;
+		font-weight: 700;
+		color: var(--neutral-900);
+	}
+
+	.logo-icon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.nav-links {
+		display: flex;
+		align-items: center;
+		gap: var(--spacing-xl);
+	}
+
+	.nav-link {
+		text-decoration: none;
+		color: var(--neutral-700);
+		font-weight: 500;
+		transition: color 0.2s ease;
+		position: relative;
+	}
+
+	.nav-link:hover {
+		color: var(--primary-blue);
+	}
+
+	.nav-dropdown {
+		position: relative;
+	}
+
+	.dropdown-content {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		background: white;
+		min-width: 200px;
+		box-shadow: var(--shadow-lg);
+		border-radius: var(--border-radius);
+		padding: var(--spacing-md);
+		opacity: 0;
+		visibility: hidden;
+		transform: translateY(-10px);
+		transition: all 0.3s ease;
+	}
+
+	.nav-dropdown:hover .dropdown-content {
+		opacity: 1;
+		visibility: visible;
+		transform: translateY(0);
+	}
+
+	.dropdown-content a {
+		display: block;
+		padding: var(--spacing-sm) var(--spacing-md);
+		text-decoration: none;
+		color: var(--neutral-700);
+		border-radius: var(--border-radius-sm);
+		transition: all 0.2s ease;
+	}
+
+	.dropdown-content a:hover {
+		background: var(--neutral-50);
+		color: var(--primary-blue);
+	}
+
+	.nav-actions {
+		display: flex;
+		align-items: center;
+		gap: var(--spacing-md);
+	}
+
+	.btn-login {
+		text-decoration: none;
+		color: var(--neutral-700);
+		font-weight: 500;
+		padding: var(--spacing-sm) var(--spacing-md);
+		border-radius: var(--border-radius);
+		transition: all 0.2s ease;
+	}
+
+	.btn-login:hover {
+		background: var(--neutral-50);
+		color: var(--primary-blue);
+	}
+
+	.mobile-menu-toggle {
+		display: none;
+		flex-direction: column;
+		gap: 4px;
+		background: none;
+		border: none;
+		cursor: pointer;
+		padding: var(--spacing-sm);
+	}
+
+	.mobile-menu-toggle span {
+		width: 24px;
+		height: 2px;
+		background: var(--neutral-700);
+		transition: all 0.3s ease;
+	}
+
+	@media (max-width: 768px) {
+		.nav-links,
+		.nav-actions {
+			display: none;
+		}
+
+		.mobile-menu-toggle {
+			display: flex;
+		}
+	}
+</style>

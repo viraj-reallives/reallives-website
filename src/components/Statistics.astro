@@ -1,0 +1,179 @@
+---
+---
+
+<section class="section statistics">
+	<div class="container">
+		<h2 class="section-title">Our Global Impact</h2>
+		<p class="section-subtitle">
+			Empowering educators and students worldwide through innovative educational technology and immersive learning experiences.
+		</p>
+		
+		<div class="stats-grid">
+			<div class="stat-card fade-in">
+				<div class="stat-icon">
+					<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M24 8C15.16 8 8 15.16 8 24s7.16 16 16 16 16-7.16 16-16S32.84 8 24 8zm0 6c2.21 0 4 1.79 4 4s-1.79 4-4 4-4-1.79-4-4 1.79-4 4-4zm0 22c-4 0-7.43-2.05-9.49-5.18C16.07 28.07 20 26 24 26s7.93 2.07 9.49 4.82C31.43 33.95 28 36 24 36z" fill="currentColor"/>
+					</svg>
+				</div>
+				<div class="stat-number" data-count="2500000">0</div>
+				<h3 class="stat-title">Students Reached</h3>
+				<p class="stat-description">Lives impacted through immersive educational experiences</p>
+			</div>
+
+			<div class="stat-card fade-in">
+				<div class="stat-icon">
+					<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2" fill="none"/>
+						<path d="M24 8v32M40 24H8" stroke="currentColor" stroke-width="2"/>
+						<circle cx="24" cy="16" r="2" fill="currentColor"/>
+						<circle cx="32" cy="24" r="2" fill="currentColor"/>
+						<circle cx="24" cy="32" r="2" fill="currentColor"/>
+						<circle cx="16" cy="24" r="2" fill="currentColor"/>
+					</svg>
+				</div>
+				<div class="stat-number" data-count="195">0</div>
+				<h3 class="stat-title">Countries Represented</h3>
+				<p class="stat-description">Global diversity in our educational simulations</p>
+			</div>
+
+			<div class="stat-card fade-in">
+				<div class="stat-icon">
+					<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<rect x="8" y="12" width="32" height="24" rx="2" stroke="currentColor" stroke-width="2" fill="none"/>
+						<path d="M16 20h16M16 24h12M16 28h8" stroke="currentColor" stroke-width="2"/>
+						<path d="M24 4v8M20 8h8" stroke="currentColor" stroke-width="2"/>
+					</svg>
+				</div>
+				<div class="stat-number" data-count="15000">0</div>
+				<h3 class="stat-title">Educational Institutions</h3>
+				<p class="stat-description">Schools and universities using our platform</p>
+			</div>
+
+			<div class="stat-card fade-in">
+				<div class="stat-icon">
+					<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<polygon points="24,8 32,16 28,24 36,32 24,40 16,32 20,24 12,16" stroke="currentColor" stroke-width="2" fill="none"/>
+						<circle cx="24" cy="24" r="6" fill="currentColor" opacity="0.3"/>
+					</svg>
+				</div>
+				<div class="stat-number" data-count="18">0</div>
+				<h3 class="stat-title">Core Competencies</h3>
+				<p class="stat-description">Essential skills measured and developed</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<style>
+	.statistics {
+		background: linear-gradient(135deg, var(--primary-blue), var(--primary-green));
+		color: white;
+	}
+
+	.section-title,
+	.section-subtitle {
+		color: white;
+	}
+
+	.stats-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		gap: var(--spacing-2xl);
+		margin-top: var(--spacing-3xl);
+	}
+
+	.stat-card {
+		background: rgba(255, 255, 255, 0.1);
+		backdrop-filter: blur(10px);
+		border-radius: var(--border-radius-lg);
+		padding: var(--spacing-2xl);
+		text-align: center;
+		border: 1px solid rgba(255, 255, 255, 0.2);
+		transition: all 0.3s ease;
+	}
+
+	.stat-card:hover {
+		transform: translateY(-8px);
+		background: rgba(255, 255, 255, 0.15);
+		box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+	}
+
+	.stat-icon {
+		width: 80px;
+		height: 80px;
+		margin: 0 auto var(--spacing-lg);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: rgba(255, 255, 255, 0.1);
+		border-radius: var(--border-radius-lg);
+		color: white;
+	}
+
+	.stat-number {
+		font-size: 3rem;
+		font-weight: 700;
+		margin-bottom: var(--spacing-sm);
+		color: white;
+		font-family: 'Inter', sans-serif;
+	}
+
+	.stat-title {
+		font-size: 1.25rem;
+		font-weight: 600;
+		margin-bottom: var(--spacing-sm);
+		color: white;
+	}
+
+	.stat-description {
+		color: rgba(255, 255, 255, 0.8);
+		line-height: 1.5;
+	}
+
+	@media (max-width: 768px) {
+		.stats-grid {
+			grid-template-columns: 1fr;
+			gap: var(--spacing-xl);
+		}
+
+		.stat-number {
+			font-size: 2.5rem;
+		}
+	}
+</style>
+
+<script>
+	function animateCounters() {
+		const counters = document.querySelectorAll('.stat-number');
+		
+		const observer = new IntersectionObserver((entries) => {
+			entries.forEach(entry => {
+				if (entry.isIntersecting) {
+					const counter = entry.target;
+					const target = parseInt(counter.getAttribute('data-count'));
+					const increment = target / 100;
+					let current = 0;
+					
+					const updateCounter = () => {
+						if (current < target) {
+							current += increment;
+							counter.textContent = Math.floor(current).toLocaleString();
+							requestAnimationFrame(updateCounter);
+						} else {
+							counter.textContent = target.toLocaleString();
+						}
+					};
+					
+					updateCounter();
+					observer.unobserve(counter);
+				}
+			});
+		}, { threshold: 0.5 });
+		
+		counters.forEach(counter => {
+			observer.observe(counter);
+		});
+	}
+
+	document.addEventListener('DOMContentLoaded', animateCounters);
+</script>
