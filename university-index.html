@@ -30,7 +30,7 @@
 		<header class="header glass-header">
 			<div class="container">
 				<nav class="nav padding-header">
-					<a href="slider.html" class="logo">
+					<a href="index.html" class="logo">
 						<div class="logo-icon logo-icon-reallives">
 							<img
 								class="image-fit"
@@ -233,18 +233,6 @@
 								platform to create solutions that matter:
 							</p>
 
-							Ideation Stage - Problem Identification: Use your RealLives
-							insights to identify real challenges you witnessed Solution
-							Brainstorming: Generate innovative approaches to Addresss these
-							problems Investment Phase - Invest in ideas you believe have
-							maximum potential of creating impact Top ideas go through based on
-							highest investments Team Formation - Partner Discovery: Connect
-							with like-minded changemakers and complementary skill sets Role
-							Definition: Structure your team for maximum effectiveness Business
-							Creation - Business Model Development: Create sustainable models
-							that prioritize purpose alongside profit Perform Key Value
-							Articulation to gain quick insights into your Business Plan
-
 							<div class="colume-listed-container">
 								<div class="wrapper-colume-container">
 									<p class="title-ideation-text">Ideation Stage -</p>
@@ -355,7 +343,7 @@
 				<div class="ready-changemaker-container">
 					<span>
 						<p class="why-journey-matter text-center">
-							Why This Journey Matters?
+							Ready to Become a ChangeMaker?
 						</p>
 
 						<p class="impact-start-text text-center">
@@ -750,21 +738,20 @@
 
 											<div class="video-footer-button">
 												<div
-													class="button-number"
-													onclick="changeVideo('video/RL STEM-3.mp4')"
+													class="button-number active"
+													onclick="changeVideo('video/RL STEM-3.mp4', this)"
 												>
 													1
 												</div>
 
 												<div
 													class="button-number"
-													onclick="changeVideo('video/RL 21ST CENTURY SKILLS-2.mp4')"
+													onclick="changeVideo('video/RL 21ST CENTURY SKILLS-2.mp4', this)"
 												>
 													2
 												</div>
 											</div>
 										</div>
-
 										<!-- add background image  -->
 									</section>
 								</div>
@@ -882,57 +869,83 @@
 										<div class="left-paragraph-container">
 											<div class="check-description-container">
 												<div class="check-box">
-													<span class="material-symbols-outlined"> check </span>
+													<h3>1</h3>
 												</div>
 
-												<p class="margin-left-8">
-													Understand the impact of geography, gender, and
-													socio-economic status on life paths
-												</p>
+												<div class="wrapper-text-outcomes">
+													<p class="outcome-title-text">
+														Understand how identity and context shape lives
+													</p>
+													<p class="outcome-title-description">
+														Examine the influence of geography, gender, and
+														socio-economic status on opportunities, challenges,
+														and life paths.
+													</p>
+												</div>
 											</div>
 
 											<div class="check-description-container">
 												<div class="check-box">
-													<span class="material-symbols-outlined"> check </span>
+													<h3>2</h3>
 												</div>
 
-												<p class="margin-left-8">
-													Explore global development indicators through personal
-													experience
-												</p>
+												<div class="wrapper-text-outcomes">
+													<p class="outcome-title-text">
+														Experience global development through simulation
+													</p>
+													<p class="outcome-title-description">
+														Connect real-world indicators of health, education,
+														and income to personal life journeys.
+													</p>
+												</div>
 											</div>
 
 											<div class="check-description-container">
 												<div class="check-box">
-													<span class="material-symbols-outlined"> check </span>
+													<h3>3</h3>
 												</div>
 
-												<p class="margin-left-8">
-													Build skills in decision-making, reflection, and
-													systems thinking
-												</p>
+												<div class="wrapper-text-outcomes">
+													<p class="outcome-title-text">
+														Develop critical skills for navigating complexity
+													</p>
+													<p class="outcome-title-description">
+														Strengthen decision-making, reflection, and systems
+														thinking in response to real-world challenges.
+													</p>
+												</div>
 											</div>
 
 											<div class="check-description-container">
 												<div class="check-box">
-													<span class="material-symbols-outlined"> check </span>
+													<h3>4</h3>
 												</div>
 
-												<p class="margin-left-8">
-													Engage meaningfully with the UN Sustainable
-													Development Goals (SDGs)
-												</p>
+												<div class="wrapper-text-outcomes">
+													<p class="outcome-title-text">
+														Engage with global challenges and the SDGs
+													</p>
+													<p class="outcome-title-description">
+														Explore how everyday choices relate to issues such
+														as poverty, inequality, climate, and health.
+													</p>
+												</div>
 											</div>
 
 											<div class="check-description-container">
 												<div class="check-box">
-													<span class="material-symbols-outlined"> check </span>
+													<h3>5</h3>
 												</div>
 
-												<p class="margin-left-8">
-													Reflect on themes of equity, resilience, and global
-													interdependence
-												</p>
+												<div class="wrapper-text-outcomes">
+													<p class="outcome-title-text">
+														Foster empathy, resilience, and global citizenship
+													</p>
+													<p class="outcome-title-description">
+														Build awareness of diverse perspectives, reflect on
+														equity and resilience, and embrace interdependence.
+													</p>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -1249,7 +1262,9 @@
 										</div>
 
 										<div class="image-inner-container">
-											<h4 class="creation-section-text">Create Sections</h4>
+											<h4 class="creation-section-text" id="sectionTitle">
+												Create Boards
+											</h4>
 
 											<div class="container-inner-bottom">
 												<!-- Images Container -->
@@ -1257,17 +1272,17 @@
 												<div class="image-slide-container">
 													<img
 														class="slide-image active"
-														src="image/slider-1.svg"
+														src="image/slider-2.svg"
 														alt="1"
 													/>
 													<img
 														class="slide-image"
-														src="image/slider-2.svg"
+														src="image/slider-1.svg"
 														alt="2"
 													/>
 													<img
 														class="slide-image"
-														src="image/background-3.jpg"
+														src="image/create-cards-svg.svg"
 														alt="3"
 													/>
 												</div>
@@ -1741,10 +1756,14 @@
 								schedule a demo or start your free trial today.
 							</p>
 
-							<div class="get-started-btn get-free-trial-btn">
-								Get Started
-								<span class="material-symbols-outlined"> arrow_right_alt </span>
-							</div>
+							<a href="#pricing" class="nav-link">
+								<div class="get-started-btn get-free-trial-btn">
+									Get Started
+									<span class="material-symbols-outlined">
+										arrow_right_alt
+									</span>
+								</div>
+							</a>
 						</div>
 
 						<div class="work-class-room-img flex-center">
@@ -1945,11 +1964,14 @@
 								impactful for K-12 learners.
 							</p>
 
-							<div class="get-started-btn background-pink">
-								Get Started
-
-								<span class="material-symbols-outlined"> arrow_right_alt </span>
-							</div>
+							<a href="#pricing" class="nav-link">
+								<div class="get-started-btn background-pink">
+									Get Started
+									<span class="material-symbols-outlined">
+										arrow_right_alt
+									</span>
+								</div>
+							</a>
 						</div>
 
 						<div class="work-class-room-img flex-center">
@@ -2175,11 +2197,14 @@
 								impactful for K-12 learners.
 							</p>
 
-							<div class="get-started-btn background-sdg-btn">
-								Get Started
-
-								<span class="material-symbols-outlined"> arrow_right_alt </span>
-							</div>
+							<a href="#pricing" class="nav-link">
+								<div class="get-started-btn background-sdg-btn">
+									Get Started
+									<span class="material-symbols-outlined">
+										arrow_right_alt
+									</span>
+								</div>
+							</a>
 						</div>
 
 						<div class="work-class-room-img flex-center">
@@ -3612,7 +3637,7 @@
 			<div class="container">
 				<div class="contact-grid">
 					<div class="contact-form-section">
-						<h2 class="section-title">Get in Touch</h2>
+						<h2 class="section-title text-start">Get in Touch</h2>
 
 						<iframe
 							name="hidden_iframe"
@@ -3695,8 +3720,8 @@
 										/>
 									</svg>
 								</div>
-								<div>
-									<h4>Email</h4>
+								<div class="flex-column-gamer">
+									<h4 class="margine-0-bottom">Email</h4>
 									<p>Support@reallivesworld.com</p>
 								</div>
 							</div>
@@ -3715,8 +3740,8 @@
 									</svg>
 								</div>
 
-								<div>
-									<h4>Address</h4>
+								<div class="flex-column-gamer">
+									<h4 class="margine-0-bottom">Address</h4>
 									<p>Pune, India</p>
 								</div>
 							</div>
