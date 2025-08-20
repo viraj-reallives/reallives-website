@@ -468,7 +468,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-
+function downloadFile(url) {
+  const fileUrl = url;
+  const a = document.createElement("a");
+  a.href = fileUrl;
+  a.target = "_blank";
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+}
 
 
 
