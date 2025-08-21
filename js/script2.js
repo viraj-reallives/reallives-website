@@ -9,10 +9,18 @@ setInterval(() => {
 
 // video javascript code
 
-function changeVideo(videoSrc) {
+function changeVideo(videoSrc, element) {
 	const video = document.getElementById("heroVideo");
 	video.src = videoSrc;
 	video.play();
+
+	// Remove active from all buttons
+	document.querySelectorAll(".button-number").forEach((btn) => {
+		btn.classList.remove("active");
+	});
+
+	// Add active to the clicked one
+	element.classList.add("active");
 }
 
 // video javascript code
@@ -161,7 +169,6 @@ document.addEventListener("DOMContentLoaded", function () {
 	});
 });
 
-
 // pricing click information tooltip click show end js
 
 // pricing tab click end js
@@ -170,8 +177,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 const images1 = document.querySelectorAll(".slide-image");
 let currentIndex = 0;
-  const title = document.getElementById("sectionTitle");
-  const names = ["Create Sections", "Upload Images", "Finish Setup"];
+const title = document.getElementById("sectionTitle");
+const names = ["Create Boards", "Create Sections", "Create Cards"];
 const showImage = (index) => {
 	images1.forEach((img, i) => {
 		img.classList.toggle("active", i === index);
@@ -181,19 +188,15 @@ const showImage = (index) => {
 document.getElementById("nextBtn").addEventListener("click", () => {
 	currentIndex = (currentIndex + 1) % images1.length;
 	showImage(currentIndex);
- title.textContent = names[currentIndex];
-
+	title.textContent = names[currentIndex];
 });
 
 document.getElementById("prevBtn").addEventListener("click", () => {
 	currentIndex = (currentIndex - 1 + images1.length) % images1.length;
 	showImage(currentIndex);
-		    title.textContent = names[currentIndex];
+	title.textContent = names[currentIndex];
 });
 
 // Initial show
 showImage(currentIndex);
 // image slider js
-
-
-

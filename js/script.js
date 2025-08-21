@@ -458,14 +458,12 @@ document.addEventListener("DOMContentLoaded", function () {
 			activateSection(targetId);
 		});
 	});
-	
 
 	// If page loads with a hash in URL, show that section
 	if (window.location.hash) {
 		activateSection(window.location.hash);
 	}
 });
-
 
 
 function downloadFile(url) {
@@ -477,6 +475,3 @@ function downloadFile(url) {
   a.click();
   document.body.removeChild(a);
 }
-
-
-
