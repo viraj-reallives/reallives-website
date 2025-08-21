@@ -128,6 +128,27 @@
 	}
 }
  
+@media (max-width: 1440px) {
+	.container-main-contant-direct {
+	gap: 1rem;
+
+}
+	.title-reallives-font {
+		font-size: 40px;
+	}
+	.description-title-reallives {
+		font-size: 20px;
+	}
+	.button-container-direct {
+		gap: 0px;
+	}
+	.class-btn-style {
+		font-size: 16px;
+	}
+	.butterfly-image {
+		height: 300px;
+	}
+}
 @media (max-width: 1280px) {
 	.title-reallives-font {
 		font-size: 32px;
