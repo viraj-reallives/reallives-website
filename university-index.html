@@ -2373,12 +2373,13 @@
 						<div class="lession-tab-container">
 							<div class="container-lession-page">
 								<div class="social-study-box">
-									<div class="label-color-box">
+									<div class="label-color-box tab-btn1 active" data-tab="1">
 										<h3 class="text-left-social">Social Studies & Geography</h3>
 									</div>
 
 									<div
-										class="label-color-box background-color-transparent border-none"
+										class="label-color-box background-color-transparent border-none tab-btn1"
+										data-tab="2"
 									>
 										<h3 class="text-left-social">
 											Global Citizenship & Empathy
@@ -2386,48 +2387,102 @@
 									</div>
 								</div>
 
-								<div class="card-lession-container">
-									<div class="lession-card-box">
-										<p class="card-first-text">A day in the life</p>
+								<div
+									class="card-lession-container tab-content1 active"
+									data-tab="1"
+								>
+									<div class="wrapper-lession-plain">
+										<div class="lession-card-box">
+											<p class="card-first-text">A day in the life</p>
 
-										<p class="card-description-text">
-											Students simulate lives in 3 different countries and
-											compare quality of life, culture, and daily routines.
-										</p>
+											<p class="card-description-text">
+												Students simulate lives in 3 different countries and
+												compare quality of life, culture, and daily routines.
+											</p>
 
-										<div class="wrapper-button">
-											<div class="pdf-img-box">
-												<img src="logo-image/pdf-img.svg" alt="" />
+											<div class="wrapper-button">
+												<div class="pdf-img-box">
+													<img src="logo-image/pdf-img.svg" alt="" />
+												</div>
+											</div>
+										</div>
+
+										<div class="lession-card-box">
+											<p class="card-first-text">World Inequality Mapping</p>
+
+											<p class="card-description-text">
+												Analyze income, education, and health disparities using
+												RealLives characters.
+											</p>
+
+											<div class="wrapper-button">
+												<div class="pdf-img-box">
+													<img src="logo-image/pdf-img.svg" alt="" />
+												</div>
+											</div>
+										</div>
+
+										<div class="lession-card-box">
+											<p class="card-first-text">World Inequality Mapping</p>
+
+											<p class="card-description-text">
+												Analyze income, education, and health disparities using
+												RealLives characters.
+											</p>
+
+											<div class="wrapper-button">
+												<div class="pdf-img-box">
+													<img src="logo-image/pdf-img.svg" alt="" />
+												</div>
 											</div>
 										</div>
 									</div>
+								</div>
 
-									<div class="lession-card-box">
-										<p class="card-first-text">World Inequality Mapping</p>
+								<div class="card-lession-container tab-content1" data-tab="2">
+									<div class="wrapper-lession-plain">
+										<div class="lession-card-box">
+											<p class="card-first-text">A day in the life</p>
 
-										<p class="card-description-text">
-											Analyze income, education, and health disparities using
-											RealLives characters.
-										</p>
+											<p class="card-description-text">
+												Students simulate lives in 3 different countries and
+												compare quality of life, culture, and daily routines.
+											</p>
 
-										<div class="wrapper-button">
-											<div class="pdf-img-box">
-												<img src="logo-image/pdf-img.svg" alt="" />
+											<div class="wrapper-button">
+												<div class="pdf-img-box">
+													<img src="logo-image/pdf-img.svg" alt="" />
+												</div>
 											</div>
 										</div>
-									</div>
 
-									<div class="lession-card-box">
-										<p class="card-first-text">World Inequality Mapping</p>
+										<div class="lession-card-box">
+											<p class="card-first-text">World Inequality Mapping</p>
 
-										<p class="card-description-text">
-											Analyze income, education, and health disparities using
-											RealLives characters.
-										</p>
+											<p class="card-description-text">
+												Analyze income, education, and health disparities using
+												RealLives characters.
+											</p>
 
-										<div class="wrapper-button">
-											<div class="pdf-img-box">
-												<img src="logo-image/pdf-img.svg" alt="" />
+											<div class="wrapper-button">
+												<div class="pdf-img-box">
+													<img src="logo-image/pdf-img.svg" alt="" />
+												</div>
+											</div>
+										</div>
+
+										<div class="lession-card-box">
+											<p class="card-first-text">World Inequality Mapping</p>
+
+											<p class="card-description-text">
+												Analyze income, education, and health disparities using
+												RealLives characters.
+											</p>
+
+											<div class="wrapper-button">
+												<div class="pdf-img-box">
+													<img src="logo-image/pdf-img.svg" alt="" />
+												</div>
 											</div>
 										</div>
 									</div>
@@ -3972,5 +4027,43 @@
 			}
 			document.getElementById("hidden_iframe").onload = showMessage;
 		</script>
+
+		<script>
+			const tabBtns = document.querySelectorAll(".tab-btn1");
+			const tabContents = document.querySelectorAll(".tab-content1");
+
+			tabBtns.forEach((btn) => {
+				btn.addEventListener("click", () => {
+					const tabId = btn.getAttribute("data-tab");
+
+					// Remove active class from all buttons and contents
+					tabBtns.forEach((b) => b.classList.remove("active"));
+					tabContents.forEach((c) => c.classList.remove("active"));
+
+					// Add active to clicked button
+					btn.classList.add("active");
+
+					// Show matching content
+					document
+						.querySelector(`.tab-content1[data-tab="${tabId}"]`)
+						.classList.add("active");
+				});
+			});
+		</script>
+
+		<style>
+			.tab-content1 {
+				display: none !important;
+			}
+			.tab-content1.active {
+				display: block !important;
+			}
+			.tab-btn1.active {
+				padding: 5px !important;
+				background: #e4f4f7 !important;
+				border: 1px solid #56e8fc !important;
+				border-radius: 35px !important;
+			}
+		</style>
 	</body>
 </html>
