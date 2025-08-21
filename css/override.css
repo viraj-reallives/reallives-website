@@ -9,6 +9,10 @@ img {
 	margin-top: 80% !important;
 }
 
+.no-text-decoration {
+	text-decoration: none;
+}
+
 .container-override {
 	width: 100vw !important;
 }
@@ -3495,9 +3499,11 @@ img {
 }
 
 @media (max-width: 1728px) {
+
 	.wrapper-outer-container-priving {
 		padding-top: 3rem;
 	}
+
 	.wrapper-butterfly-container > p {
 		text-align: justify;
 	}

@@ -32,10 +32,9 @@
 .container-main-contant-direct {
 	padding: 2rem 0rem;
 	width: 50%;
-	height: 100%;
 	display: grid;
 	grid-template-rows: auto auto auto 17%;
-	gap: 1rem;
+	gap: 3rem;
 	padding-left: 6rem;
 }
 
@@ -108,6 +107,27 @@
 	background-color: #396493;
 }
 
+@media (max-width: 1728px){
+	.button-container-direct {
+		padding-bottom: 8px;
+
+	}
+
+	.button-container-direct >p {
+		font-size: 18px;
+	}
+
+	.title-reallives-font{
+		font-size: 44px;
+	}
+	.description-title-reallives{
+		margin: 0px;
+	}
+	.wrapper-btn-indirect-website{
+		padding: 14px 0px;
+	}
+}
+ 
 @media (max-width: 1280px) {
 	.title-reallives-font {
 		font-size: 32px;
