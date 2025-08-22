@@ -4246,11 +4246,20 @@ img {
 	.footer-empathy-experience {
 		width: 28rem;
 	}
+	.padding-add-tab-content {
+		padding: 1.5rem 0rem !important;
+	}
 }
 
 @media (max-width: 450px) {
 	.footer-empathy-experience {
 		width: 26rem;
+	}
+	.products-grid {
+		grid-template-columns: repeat(1, 1fr) !important;
+	}
+	.padding-add-tab-content {
+		padding: 1.5rem 0rem !important;
 	}
 }
 
@@ -4258,11 +4267,23 @@ img {
 	.footer-empathy-experience {
 		width: 24rem;
 	}
+	.products-grid {
+		grid-template-columns: repeat(1, 1fr) !important;
+	}
+	.padding-add-tab-content {
+		padding: 1.5rem 0rem !important;
+	}
 }
 
 @media (max-width: 390px) {
 	.footer-empathy-experience {
 		width: 23rem;
+	}
+	.products-grid {
+		grid-template-columns: repeat(1, 1fr) !important;
+	}
+	.padding-add-tab-content {
+		padding: 1.5rem 0rem !important;
 	}
 }
 
@@ -4278,5 +4299,11 @@ img {
 	}
 	.reallives-info-data-label {
 		width: 390px;
+	}
+	.products-grid {
+		grid-template-columns: repeat(1, 1fr) !important;
+	}
+	.padding-add-tab-content {
+		padding: 1.5rem 0rem !important;
 	}
 }
