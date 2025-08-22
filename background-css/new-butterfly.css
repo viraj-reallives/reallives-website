@@ -107,32 +107,30 @@
 	background-color: #396493;
 }
 
-@media (max-width: 1728px){
+@media (max-width: 1728px) {
 	.button-container-direct {
 		padding-bottom: 8px;
-
 	}
 
-	.button-container-direct >p {
+	.button-container-direct > p {
 		font-size: 18px;
 	}
 
-	.title-reallives-font{
+	.title-reallives-font {
 		font-size: 44px;
 	}
-	.description-title-reallives{
+	.description-title-reallives {
 		margin: 0px;
 	}
-	.wrapper-btn-indirect-website{
+	.wrapper-btn-indirect-website {
 		padding: 14px 0px;
 	}
 }
- 
+
 @media (max-width: 1440px) {
 	.container-main-contant-direct {
-	gap: 1rem;
-
-}
+		gap: 1rem;
+	}
 	.title-reallives-font {
 		font-size: 40px;
 	}
@@ -149,6 +147,7 @@
 		height: 300px;
 	}
 }
+
 @media (max-width: 1280px) {
 	.title-reallives-font {
 		font-size: 32px;
@@ -205,7 +204,7 @@
 
 @media (max-width: 991px) {
 	.title-reallives-font {
-		font-size: 23px;
+		font-size: 29px;
 	}
 	.description-title-reallives {
 		font-size: 14px;
@@ -215,5 +214,288 @@
 	}
 	.class-btn-style {
 		font-size: 14px;
+	}
+
+	.container-main-contant-direct {
+		padding-left: 1rem;
+		grid-template-rows: auto auto auto auto;
+		width: 60%;
+	}
+}
+
+@media (max-width: 900px) {
+	.container-main-contant-direct {
+		padding-left: 1rem;
+	}
+}
+
+@media (max-width: 800px) {
+	.container-main-contant-direct {
+		padding-left: 0rem;
+		padding: 10px 15px;
+		grid-template-rows: auto auto auto auto;
+	}
+
+	.r-reallives-logo {
+		width: 3rem;
+	}
+	.butterfly-image {
+		height: 13rem;
+		width: 100%;
+	}
+	.title-reallives-font {
+		font-size: 42px;
+	}
+	.button-container-direct {
+		padding: 1rem 1rem;
+	}
+
+	.wrapper-btn-indirect-website {
+		grid-template-columns: repeat(4, 1fr);
+		gap: 1rem;
+	}
+	.class-btn-style {
+		font-size: 13px;
+	}
+	.button-container-direct > p {
+		font-size: 17px;
+	}
+}
+
+@media (max-width: 700px) {
+	.container-main-contant-direct {
+		padding-left: 0rem;
+		width: 100%;
+		padding: 10px 15px;
+		grid-template-rows: auto auto auto auto;
+	}
+
+	.r-reallives-logo {
+		width: 3rem;
+	}
+	.butterfly-image {
+		height: 13rem;
+		width: 100%;
+	}
+	.title-reallives-font {
+		font-size: 40px;
+	}
+	.button-container-direct {
+		padding: 1rem 1rem;
+	}
+
+	.wrapper-btn-indirect-website {
+		grid-template-columns: repeat(4, 1fr);
+		gap: 1rem;
+	}
+	.class-btn-style {
+		font-size: 13px;
+	}
+	.button-container-direct > p {
+		font-size: 17px;
+	}
+}
+
+@media (max-width: 650px) {
+	.container-main-contant-direct {
+		padding-left: 0rem;
+		width: 100%;
+		padding: 10px 15px;
+		grid-template-rows: auto auto auto auto;
+	}
+
+	.r-reallives-logo {
+		width: 3rem;
+	}
+	.butterfly-image {
+		height: 13rem;
+		width: 100%;
+	}
+	.title-reallives-font {
+		font-size: 40px;
+	}
+	.button-container-direct {
+		padding: 1rem 1rem;
+	}
+
+	.wrapper-btn-indirect-website {
+		grid-template-columns: repeat(4, 1fr);
+		gap: 1rem;
+	}
+	.class-btn-style {
+		font-size: 13px;
+	}
+	.button-container-direct > p {
+		font-size: 17px;
+	}
+}
+
+@media (max-width: 600px) {
+	.container-main-contant-direct {
+		padding-left: 0rem;
+		width: 100%;
+		padding: 10px 15px;
+		grid-template-rows: auto auto auto auto;
+	}
+
+	.r-reallives-logo {
+		width: 3rem;
+	}
+	.butterfly-image {
+		height: 13rem;
+		width: 100%;
+	}
+	.title-reallives-font {
+		font-size: 31px;
+	}
+	.button-container-direct {
+		padding: 1rem 1rem;
+	}
+
+	.wrapper-btn-indirect-website {
+		grid-template-columns: repeat(4, 1fr);
+		gap: 1rem;
+	}
+	.class-btn-style {
+		font-size: 13px;
+	}
+	.button-container-direct > p {
+		font-size: 17px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container-main-contant-direct {
+		padding-left: 0rem;
+		width: 100%;
+		padding: 10px 15px;
+		grid-template-rows: auto auto auto auto;
+	}
+
+	.r-reallives-logo {
+		width: 3rem;
+	}
+	.butterfly-image {
+		height: 13rem;
+		width: 100%;
+	}
+	.title-reallives-font {
+		font-size: 29px;
+	}
+	.button-container-direct {
+		padding: 1rem 1rem;
+	}
+
+	.wrapper-btn-indirect-website {
+		grid-template-columns: repeat(4, 1fr);
+		gap: 1rem;
+	}
+	.class-btn-style {
+		font-size: 13px;
+	}
+	.button-container-direct > p {
+		font-size: 17px;
+	}
+}
+
+@media (max-width: 450px) {
+	.container-main-contant-direct {
+		padding-left: 0rem;
+		width: 100%;
+		padding: 10px 15px;
+		grid-template-rows: auto auto auto auto;
+	}
+
+	.r-reallives-logo {
+		width: 3rem;
+	}
+	.butterfly-image {
+		height: 13rem;
+		width: 100%;
+	}
+	.title-reallives-font {
+		font-size: 20px;
+	}
+	.button-container-direct {
+		padding: 1rem 1rem;
+	}
+
+	.wrapper-btn-indirect-website {
+		grid-template-columns: repeat(4, 1fr);
+		gap: 1rem;
+	}
+	.class-btn-style {
+		font-size: 13px;
+	}
+	.button-container-direct > p {
+		font-size: 17px;
+	}
+}
+
+@media (max-width: 390px) {
+	.container-main-contant-direct {
+		padding-left: 0rem;
+		width: 100%;
+		padding: 10px 15px;
+		grid-template-rows: auto auto auto auto;
+	}
+
+	.r-reallives-logo {
+		width: 2rem;
+	}
+	.butterfly-image {
+		height: 9rem;
+		width: 100%;
+	}
+	.title-reallives-font {
+		font-size: 20px;
+	}
+	.button-container-direct {
+		padding: 1rem 1rem;
+	}
+
+	.wrapper-btn-indirect-website {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 1rem;
+	}
+	.class-btn-style {
+		font-size: 12px;
+	}
+	.button-container-direct > p {
+		font-size: 16px;
+	}
+}
+@media (max-width: 320px) {
+	.container-main-contant-direct {
+		padding-left: 0rem;
+		width: 100%;
+		padding: 10px 13px;
+	}
+
+	.r-reallives-logo {
+		width: 2rem;
+	}
+	.butterfly-image {
+		height: 160px;
+		width: 100%;
+	}
+	.title-reallives-font {
+		font-size: 20px;
+	}
+	.button-container-direct {
+		padding: 1.2rem 1rem;
+	}
+	.container-main-contant-direct {
+		grid-template-rows: auto auto auto auto;
+	}
+	.wrapper-btn-indirect-website {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 1rem;
+	}
+	.class-btn-style {
+		font-size: 12px;
+	}
+	.button-container-direct > p {
+		font-size: 16px;
 	}
 }

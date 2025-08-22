@@ -9,10 +9,6 @@ img {
 	margin-top: 80% !important;
 }
 
-.no-text-decoration {
-	text-decoration: none;
-}
-
 .container-override {
 	width: 100vw !important;
 }
@@ -493,7 +489,7 @@ img {
 
 .view-btn {
 	border: 1px solid #1797a9;
-	padding: 4px 9px;
+	padding: 10px 10px;
 	border-radius: 6px;
 	font-weight: 500;
 	font-size: 15px;
@@ -502,10 +498,6 @@ img {
 	background-color: transparent;
 	text-align: center;
 	cursor: pointer;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	gap: 4px;
 }
 
 .container-lession-page {
@@ -3502,12 +3494,14 @@ img {
 	font-size: 17px;
 }
 
-@media (max-width: 1728px) {
+.image-none {
+	display: block;
+}
 
+@media (max-width: 1728px) {
 	.wrapper-outer-container-priving {
 		padding-top: 3rem;
 	}
-
 	.wrapper-butterfly-container > p {
 		text-align: justify;
 	}
@@ -3577,6 +3571,644 @@ img {
 
 	.video-footer-button {
 		bottom: 20%;
+	}
+}
+
+@media (max-width: 1440px) {
+	.wrapper-butterfly-container > p {
+		font-size: 16px;
+	}
+
+	.wrapper-butterfly-container > h1 {
+		font-size: 22px;
+	}
+	.chnage-maker-journey-text {
+		font-size: 22px !important;
+	}
+
+	.description-phase-1-text {
+		font-size: 16px;
+	}
+	.phase-one-text {
+		font-size: 22px;
+	}
+	.listed-container-box {
+		font-size: 16px;
+	}
+	.arrow-image-rounded {
+		bottom: -17%;
+		left: -18%;
+	}
+
+	.why-journey-matter {
+		font-size: 25px;
+	}
+	.title-row-description {
+		font-size: 16px;
+	}
+	.title-row-text {
+		font-size: 18px;
+	}
+	.products-grid {
+		grid-template-columns: repeat(4, 1fr) !important;
+		grid-template-rows: repeat(2, 1fr);
+	}
+	.becomechnage-maker {
+		font-size: 18px;
+	}
+
+	.image-none {
+		display: none;
+	}
+
+	.padding-add-tab-content {
+		padding: 1.5rem 6rem !important;
+		height: auto;
+	}
+	.left-matter-reallives > h1 {
+		font-size: 25px;
+	}
+	.outcome-title-description {
+		font-size: 16px;
+	}
+	.outcome-title-text {
+		font-size: 18px;
+	}
+	.experience-reallives-text {
+		font-size: 26px;
+	}
+	.wrapper-colume-4 {
+		padding: 0px 15px;
+	}
+	.clusetr-title-text {
+		font-size: 31px;
+	}
+	.cluster-description-text {
+		font-size: 16px;
+	}
+	.slider-container-realboard {
+		padding: 1rem 6rem;
+	}
+	.what-realboard-info-text {
+		font-size: 27px;
+		line-height: 37px;
+	}
+	.title-wrapper-description > p {
+		font-size: 16px;
+	}
+	.title-wrapper-description > h4 {
+		font-size: 19px;
+	}
+	.image-real-grid {
+		height: 300px;
+	}
+
+	.image-real-grid > img {
+		width: 100%;
+		height: 100%;
+	}
+	.first-image-grid-top {
+		padding: 10px 1rem;
+	}
+	.description-tab-label {
+		font-size: 19px;
+	}
+	.tab-img-hight {
+		height: 22rem !important;
+	}
+	.left-paragraph-container {
+		font-size: 15px;
+	}
+
+	.work-span-text-box > h2 {
+		font-size: 25px;
+	}
+
+	.description-work-text-class {
+		font-size: 17px;
+	}
+	.span-classroome-text {
+		font-size: 18px;
+	}
+	.ready-to-transform-text {
+		font-size: 17px;
+	}
+	.wrapper-card-container {
+		padding: 10px 0rem;
+	}
+	.container-lession-page {
+		padding: 10px 0rem;
+		grid-template-columns: 27% 1fr;
+	}
+	.left-title-header {
+		font-size: 19px;
+	}
+	.reallives-description-text {
+		font-size: 12px;
+	}
+	.descritpion-container-founder {
+		font-size: 15px;
+	}
+	.team-reallives-container > h1 {
+		font-size: 2px;
+	}
+	.name-user {
+		font-size: 18px;
+	}
+
+	.tab-content {
+		padding: 1.5rem 1rem;
+	}
+	.wrapper-inlcuded-and-product {
+		padding: 1rem 4rem;
+	}
+	.data-text-left-container {
+		padding-left: 8rem;
+	}
+	.section-title {
+		padding-top: 0px;
+	}
+	.arrow-svg-2-rounded {
+		bottom: -46%;
+	}
+}
+
+@media (max-width: 1368px) {
+	.wrapper-butterfly-container > p {
+		font-size: 16px;
+	}
+
+	.wrapper-butterfly-container > h1 {
+		font-size: 22px;
+	}
+	.chnage-maker-journey-text {
+		font-size: 22px !important;
+	}
+
+	.description-phase-1-text {
+		font-size: 16px;
+	}
+	.phase-one-text {
+		font-size: 22px;
+	}
+	.listed-container-box {
+		font-size: 16px;
+	}
+	.arrow-image-rounded {
+		bottom: -17%;
+		left: -18%;
+	}
+
+	.why-journey-matter {
+		font-size: 25px;
+	}
+	.title-row-description {
+		font-size: 16px;
+	}
+	.title-row-text {
+		font-size: 18px;
+	}
+	.products-grid {
+		grid-template-columns: repeat(4, 1fr) !important;
+		grid-template-rows: repeat(2, 1fr);
+	}
+	.becomechnage-maker {
+		font-size: 18px;
+	}
+
+	.image-none {
+		display: none;
+	}
+
+	.padding-add-tab-content {
+		padding: 1.5rem 6rem !important;
+		height: auto;
+	}
+	.left-matter-reallives > h1 {
+		font-size: 25px;
+	}
+	.outcome-title-description {
+		font-size: 16px;
+	}
+	.outcome-title-text {
+		font-size: 18px;
+	}
+	.experience-reallives-text {
+		font-size: 26px;
+	}
+	.wrapper-colume-4 {
+		padding: 0px 15px;
+	}
+	.clusetr-title-text {
+		font-size: 31px;
+	}
+	.cluster-description-text {
+		font-size: 16px;
+	}
+	.slider-container-realboard {
+		padding: 1rem 6rem;
+	}
+	.what-realboard-info-text {
+		font-size: 27px;
+		line-height: 37px;
+	}
+	.title-wrapper-description > p {
+		font-size: 16px;
+	}
+	.title-wrapper-description > h4 {
+		font-size: 19px;
+	}
+	.image-real-grid {
+		height: 300px;
+	}
+
+	.image-real-grid > img {
+		width: 100%;
+		height: 100%;
+	}
+	.first-image-grid-top {
+		padding: 10px 1rem;
+	}
+	.description-tab-label {
+		font-size: 19px;
+	}
+	.tab-img-hight {
+		height: 22rem !important;
+	}
+	.left-paragraph-container {
+		font-size: 15px;
+	}
+
+	.work-span-text-box > h2 {
+		font-size: 25px;
+	}
+
+	.description-work-text-class {
+		font-size: 17px;
+	}
+	.span-classroome-text {
+		font-size: 18px;
+	}
+	.ready-to-transform-text {
+		font-size: 17px;
+	}
+	.wrapper-card-container {
+		padding: 10px 0rem;
+	}
+	.container-lession-page {
+		padding: 10px 0rem;
+		grid-template-columns: 27% 1fr;
+	}
+	.left-title-header {
+		font-size: 19px;
+	}
+	.reallives-description-text {
+		font-size: 12px;
+	}
+	.descritpion-container-founder {
+		font-size: 15px;
+	}
+	.team-reallives-container > h1 {
+		font-size: 2px;
+	}
+	.name-user {
+		font-size: 18px;
+	}
+
+	.tab-content {
+		padding: 1.5rem 1rem;
+	}
+	.wrapper-inlcuded-and-product {
+		padding: 1rem 4rem;
+	}
+	.data-text-left-container {
+		padding-left: 8rem;
+	}
+	.section-title {
+		padding-top: 0px;
+	}
+	.arrow-svg-2-rounded {
+		bottom: -46%;
+	}
+}
+
+@media (max-width: 1280px) {
+	.wrapper-butterfly-container > p {
+		font-size: 15px;
+	}
+
+	.wrapper-butterfly-container > h1 {
+		font-size: 21px;
+	}
+	.chnage-maker-journey-text {
+		font-size: 21px !important;
+	}
+
+	.description-phase-1-text {
+		font-size: 15px;
+	}
+	.phase-one-text {
+		font-size: 21px;
+	}
+	.listed-container-box {
+		font-size: 15px;
+	}
+	.arrow-image-rounded {
+		bottom: -17%;
+		left: -12%;
+	}
+
+	.why-journey-matter {
+		font-size: 24px;
+	}
+	.title-row-description {
+		font-size: 15px;
+	}
+	.title-row-text {
+		font-size: 17px;
+	}
+	.products-grid {
+		grid-template-columns: repeat(2, 1fr) !important;
+		grid-template-rows: repeat(2, 1fr);
+	}
+	.becomechnage-maker {
+		font-size: 17px;
+	}
+
+	.image-none {
+		display: none;
+	}
+
+	.padding-add-tab-content {
+		padding: 1.5rem 5rem !important;
+		height: auto;
+	}
+	.left-matter-reallives > h1 {
+		font-size: 24px;
+	}
+	.outcome-title-description {
+		font-size: 15px;
+	}
+	.outcome-title-text {
+		font-size: 17px;
+	}
+	.experience-reallives-text {
+		font-size: 25px;
+	}
+	.wrapper-colume-4 {
+		padding: 0px 15px;
+	}
+	.clusetr-title-text {
+		font-size: 30px;
+	}
+	.cluster-description-text {
+		font-size: 15px;
+	}
+	.slider-container-realboard {
+		padding: 1rem 5rem;
+	}
+	.what-realboard-info-text {
+		font-size: 26px;
+		line-height: 37px;
+	}
+	.title-wrapper-description > p {
+		font-size: 15px;
+	}
+	.title-wrapper-description > h4 {
+		font-size: 18px;
+	}
+	.image-real-grid {
+		height: 300px;
+	}
+
+	.image-real-grid > img {
+		width: 100%;
+		height: 100%;
+	}
+	.first-image-grid-top {
+		padding: 10px 1rem;
+	}
+	.description-tab-label {
+		font-size: 15px;
+	}
+	.tab-img-hight {
+		height: 22rem !important;
+	}
+	.left-paragraph-container {
+		font-size: 14px;
+	}
+
+	.work-span-text-box > h2 {
+		font-size: 24px;
+	}
+
+	.description-work-text-class {
+		font-size: 16px;
+	}
+	.span-classroome-text {
+		font-size: 17px;
+	}
+	.ready-to-transform-text {
+		font-size: 16px;
+	}
+	.wrapper-card-container {
+		padding: 10px 0rem;
+	}
+	.container-lession-page {
+		padding: 10px 0rem;
+		grid-template-columns: 27% 1fr;
+	}
+	.left-title-header {
+		font-size: 18px;
+	}
+	.reallives-description-text {
+		font-size: 11px;
+	}
+	.descritpion-container-founder {
+		font-size: 14px;
+	}
+	.team-reallives-container > h1 {
+		font-size: 24px;
+	}
+	.name-user {
+		font-size: 17px;
+	}
+
+	.tab-content {
+		padding: 1.5rem 1rem;
+	}
+	.wrapper-inlcuded-and-product {
+		padding: 1rem 4rem;
+	}
+	.data-text-left-container {
+		padding-left: 4rem;
+	}
+	.section-title {
+		padding-top: 0px;
+	}
+}
+
+@media (min-width: 990px) and (max-width: 1200px) {
+	.wrapper-butterfly-container > p {
+		font-size: 15px;
+	}
+
+	.wrapper-butterfly-container > h1 {
+		font-size: 21px;
+	}
+	.chnage-maker-journey-text {
+		font-size: 21px !important;
+	}
+
+	.description-phase-1-text {
+		font-size: 15px;
+	}
+	.phase-one-text {
+		font-size: 21px;
+	}
+	.listed-container-box {
+		font-size: 15px;
+	}
+	.arrow-image-rounded {
+		bottom: -17%;
+		left: -12%;
+	}
+
+	.why-journey-matter {
+		font-size: 24px;
+	}
+	.title-row-description {
+		font-size: 15px;
+	}
+	.title-row-text {
+		font-size: 17px;
+	}
+	.products-grid {
+		grid-template-columns: repeat(2, 1fr) !important;
+		grid-template-rows: repeat(2, 1fr);
+	}
+	.becomechnage-maker {
+		font-size: 17px;
+	}
+
+	.image-none {
+		display: none;
+	}
+
+	.padding-add-tab-content {
+		padding: 1.5rem 1rem !important;
+		height: auto;
+	}
+	.left-matter-reallives > h1 {
+		font-size: 24px;
+	}
+	.outcome-title-description {
+		font-size: 15px;
+	}
+	.outcome-title-text {
+		font-size: 17px;
+	}
+	.experience-reallives-text {
+		font-size: 25px;
+	}
+	.wrapper-colume-4 {
+		padding: 0px 15px;
+	}
+	.clusetr-title-text {
+		font-size: 30px;
+	}
+	.cluster-description-text {
+		font-size: 15px;
+	}
+	.slider-container-realboard {
+		padding: 1rem 3rem;
+	}
+	.what-realboard-info-text {
+		font-size: 26px;
+		line-height: 37px;
+	}
+	.title-wrapper-description > p {
+		font-size: 15px;
+	}
+	.title-wrapper-description > h4 {
+		font-size: 18px;
+	}
+	.image-real-grid {
+		width: 285px;
+		height: 300px;
+	}
+
+	.image-real-grid > img {
+		width: 100%;
+		height: 100%;
+	}
+	.first-image-grid-top {
+		padding: 10px 1rem;
+	}
+	.description-tab-label {
+		font-size: 15px;
+	}
+	.tab-img-hight {
+		height: 22rem !important;
+	}
+	.left-paragraph-container {
+		font-size: 14px;
+	}
+
+	.work-span-text-box > h2 {
+		font-size: 24px;
+	}
+
+	.description-work-text-class {
+		font-size: 16px;
+	}
+	.span-classroome-text {
+		font-size: 17px;
+	}
+	.ready-to-transform-text {
+		font-size: 16px;
+	}
+	.wrapper-card-container {
+		padding: 10px 0rem;
+	}
+	.container-lession-page {
+		padding: 10px 0rem;
+		grid-template-columns: 27% 1fr;
+	}
+	.left-title-header {
+		font-size: 18px;
+	}
+	.reallives-description-text {
+		font-size: 11px;
+	}
+	.descritpion-container-founder {
+		font-size: 14px;
+	}
+	.team-reallives-container > h1 {
+		font-size: 24px;
+	}
+	.name-user {
+		font-size: 17px;
+	}
+
+	.tab-content {
+		padding: 1.5rem 1rem;
+	}
+	.wrapper-inlcuded-and-product {
+		padding: 1rem 4rem;
+	}
+	.data-text-left-container {
+		padding-left: 4rem;
+	}
+	.section-title {
+		padding-top: 0px;
+	}
+	.arrow-svg-2-rounded {
+		bottom: -39%;
+	}
+	.arrow-image-rounded {
+		bottom: -17%;
+		left: -17%;
 	}
 }
 
