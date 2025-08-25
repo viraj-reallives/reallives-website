@@ -384,3 +384,178 @@
 .margin-bottom-2 {
 	margin-bottom: 0px !important;
 }
+
+@media (max-width: 1280px) {
+	.what-gamer-says-container {
+		height: max-content;
+	}
+
+	.message-structure-container {
+		padding: 10px 1rem;
+	}
+	.gameplay-text {
+		padding: 1rem;
+	}
+	.text-image-data-container {
+		padding: 0rem 14rem;
+	}
+}
+
+@media (max-width: 1180px) {
+	.what-gamer-says-container {
+		height: max-content;
+	}
+
+	.message-structure-container {
+		padding: 10px 1rem;
+	}
+	.gameplay-text {
+		padding: 1rem;
+	}
+	.text-image-data-container {
+		padding: 0rem 14rem;
+	}
+}
+
+@media (max-width: 1104px) {
+	.what-gamer-says-container {
+		height: max-content;
+	}
+
+	.message-structure-container {
+		padding: 10px 1rem;
+	}
+	.gameplay-text {
+		padding: 1rem;
+	}
+	.text-image-data-container {
+		padding: 0rem 14rem;
+	}
+}
+
+@media (max-width: 1024px) {
+	.what-gamer-says-container {
+		height: max-content;
+	}
+
+	.message-structure-container {
+		padding: 10px 1rem;
+	}
+	.gameplay-text {
+		padding: 1rem;
+	}
+	.text-image-data-container {
+		padding: 0rem 13rem;
+	}
+}
+
+@media (max-width: 991px) {
+	.what-gamer-says-container {
+		height: max-content;
+	}
+
+	.message-structure-container {
+		padding: 10px 1rem;
+	}
+	.gameplay-text {
+		padding: 1rem;
+	}
+	.text-image-data-container {
+		padding: 0rem 13rem;
+	}
+}
+
+@media (max-width: 850px) {
+	.what-gamer-says-container {
+		height: max-content;
+	}
+
+	.message-structure-container {
+		padding: 10px 1rem;
+	}
+	.gameplay-text {
+		padding: 1rem;
+	}
+	.text-image-data-container {
+		padding: 0rem 13rem;
+	}
+}
+@media (max-width: 800px) {
+	.what-gamer-says-container {
+		height: max-content;
+	}
+
+	.message-structure-container {
+		padding: 10px 1rem;
+	}
+	.gameplay-text {
+		padding: 1rem;
+	}
+	.text-image-data-container {
+		padding: 0rem 13rem;
+	}
+}
+@media (max-width: 750px) {
+	.what-gamer-says-container {
+		height: max-content;
+	}
+
+	.message-structure-container {
+		padding: 10px 1rem;
+	}
+	.gameplay-text {
+		padding: 1rem;
+	}
+	.text-image-data-container {
+		padding: 0rem 13rem;
+	}
+}
+@media (max-width: 700px) {
+	.what-gamer-says-container {
+		height: max-content;
+	}
+
+	.message-structure-container {
+		padding: 10px 1rem;
+	}
+	.gameplay-text {
+		padding: 1rem;
+	}
+	.text-image-data-container {
+		padding: 0rem 13rem;
+	}
+}
+@media (max-width: 600px) {
+	.what-gamer-says-container {
+		height: max-content;
+	}
+
+	.message-structure-container {
+		padding: 10px 1rem;
+	}
+	.gameplay-text {
+		padding: 1rem;
+	}
+	.text-image-data-container {
+		padding: 0rem 13rem;
+	}
+}
+@media (max-width: 560px) {
+	.what-gamer-says-container {
+		height: max-content;
+	}
+
+	.message-structure-container {
+		padding: 10px 1rem;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.gameplay-text {
+		padding: 1rem;
+	}
+	.text-image-data-container {
+		padding: 0rem 13rem;
+	}
+	.text-image-data-container {
+		padding: 0rem 1rem;
+	}
+}
