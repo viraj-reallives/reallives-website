@@ -3561,7 +3561,7 @@ img {
 .wrapper-sdg-inner-container {
 	display: grid;
 	grid-template-columns: repeat(7, 1fr);
-	gap: 1rem;
+	gap: 2rem;
 }
 
 .sdg-image-wrapper-container > p {
